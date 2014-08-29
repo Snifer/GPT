@@ -7,8 +7,9 @@ Gadget Pentesting Tool
 Reconocimiento
 ---------------
 
-* Nmap 
- 
+* Nmap
+  - Identificador de  OS (Mac, Windows, Linux, IOS, Desconocido, Fortinent, Impresoras, Apagados)
+
 
 Hacking con Buscadores
 
