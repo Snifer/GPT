@@ -8,11 +8,11 @@ Reconocimiento
 ---------------
 
 * Nmap
-  - Identificador de  OS (Mac, Windows, Linux, IOS, Desconocido, Fortinent, Impresoras, Apagados)
+  - Identificador de  OS (Mac, Windows, Linux, IOS, Desconocido, Fortinent, Impresoras,IDS/IPS Apagados)
   - Identificacion de servicios Web
   - Identificacion de IIS
   - Identificacion de Escritorio Remotos
-
+  - Identificacion de
 
 
 Hacking con Buscadores
