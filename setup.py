@@ -1,10 +1,9 @@
 # Verificador de dependencias
 
 import subprocess
-
+import os
 def main():
-    import subprocess
-    import os
+
 
     try:
         subprocess.call(["nmap", "--version"])
@@ -14,7 +13,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
