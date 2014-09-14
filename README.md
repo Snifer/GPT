@@ -1,4 +1,4 @@
-GPT
+yGPT
 ===
 
 Gadget Pentesting Tool
@@ -15,8 +15,15 @@ Reconocimiento
   - Identificacion de
 
 
-Hacking con Buscadores
+* Hacking con Buscadores
 
  - Google
  - Bing
  - Shodan
+
+* Web Penetration Testing
+
+ - Crawler
+ - Panel Admin Finder
+ - Sqli Search
+ - FuzzerWeb
