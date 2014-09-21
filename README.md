@@ -57,10 +57,6 @@ Explotation
         (Sin tomar en cuenta que será esto? :| aun dudas existenciales)
 
 * Metasploit
-
-Explotacion
------------
-
 * MS12_020
 * RDP Attack
 * FTP Attack
