@@ -1,7 +1,7 @@
 # ALL Imports
 import os
 import sys
-
+import whois
 
 Api_Shodan = "Key Here"
 
