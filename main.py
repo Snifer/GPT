@@ -2,6 +2,7 @@
 import os
 import sys
 import whois
+import DNS
 
 Api_Shodan = "Key Here"
 
