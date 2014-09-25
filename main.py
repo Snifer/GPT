@@ -1,40 +1,39 @@
-# ALL Imports
 import os
 import sys
+from sys import exit
 import whois
 import DNS
 
 Api_Shodan = "Key Here"
 
+def clear():
+
+  os.system("cls" if os.name == "nt" else "clear")
+
 def main():
 
     #global Mivariable
-    print '           \n \n \n \n \n \n          '
-    print '             ______  ____   _______   '
-    print '            |  ____||  _ \ |__   __|  '
-    print '            | |  _  | |_) |   | |     '
-    print '            | | | | |   _/    | |     '
-    print '            \ |_| | |  |      | |     '
-    print '             \____| |__|      |_|     '
-    print '                   ____    _          '
-    print '                  /  _ \ _| |         '
-    print '           __   __| | | |_  |         '
-    print '           \ \ / /| | | | | |         '
-    print '            \ V / | |_| | | |         '
-    print '             \_/  \_____()|_|         '
-    print '     '
-    print '      Develo by @Snifer @State_X     '
-    print '     Jose Moruno Cadima , Albert Sanchez'
-    print '\n\n\n\n\n\n'
+    print """           \n \n \n
+                     ______  ____   _______
+                    |  ____||  _ \ |__   __|
+                    | |  _  | |_) |   | |
+                    | | | | |   _/    | |
+                    \ |_| | |  |      | |
+                     \____| |__|      |_|
+                           ____    _
+                          /  _ \ _| |
+                   __   __| | | |_  |
+                   \ \ / /| | | | | |
+                    \ V / | |_| | | |
+                     \_/  \_____()|_|
 
-    raw_input('Gadget Pentesting Tool . Press a button dude!')
+              Develo by @Snifer @State_X
+             Jose Moruno Cadima , Albert Sanchez
+    """
 
-    while 1:
-        option = -1
-        while ((int(option) != 1)  and (int(option) != 2)  and
-               (int(option) != 3)  and (int(option) != 4)  and
-               (int(option) != 5)  and (int(option) != 6)  and
-               (int(option) != 7) and (int(option) != 99)):
+    raw_input('Gadget Pentesting Tool . Press ENTER to continue!')
+    flag = True
+    while flag:
 
             print '\n'
             print '1)  Reconnaissance (Information Gathering)'
@@ -42,31 +41,49 @@ def main():
             print '3)  Explotacion'
             print '4)  Web Hacking'
             print '5)  Tools Gadge'
-            print '6)  Web Hacking'
-            print '7)  Backdoors & Rootkits'
-            print '99) Cerrar GPT'
-
-            choice = raw_input('Select one option: ')
+            print '6)  Backdoors & Rootkits'
+            print '7) Cerrar GPT'
 
             try:
-                option = int(choice)
+
+                option = input("Select option:")
+                clear()
+                if option == 1:
+
+                  print "Reconnaissance"
+
+                elif option == 2:
+
+                  print "Scanning"
+
+                elif option == 3:
+
+                  print "Exploiting(?)"
+
+                elif option == 4:
+
+                  print "Web Hacking"
+
+                elif option == 5:
+
+                  print "Tools Gadge"
+
+                elif option == 6:
+
+                  print "Backdoors & Rootkits"
+
+                elif option == 7:
+                  #exit()
+                  flag = False
+
             except:
-                raw_input('Not is a number, -_-! .. \n')
+
+                print option
+                print "It is not a number!"
+
             print '\n\n'
 
-        if (int(option) == 1):
-
-            print ' ****Reconnaissance***'
 
 
-        if (int(option) == 99):
-            print '\n \n \n '
-            print ' Thanks for use GPT . ' #Path donde se almacenara la ifnormacion mensaje de salid
-            print '\n \n  \n '
-
-            exit(0)
-
-
-
-
-main()
+if __name__ == "__main__":
+  main()
