@@ -1,6 +1,8 @@
 Gadget Pentesting Tool
 =======================
 
+Scripts para realizar un pentesting, posterior a ello se desea realizar la suite como tal.
+
            ______  ____   _______
           |  ____||  _ \ |__   __|
           | |  _  | |_) |   | |
