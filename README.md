@@ -1,7 +1,7 @@
 Gadget Pentesting Tool
 =======================
 
-Scripts para realizar un pentesting, posterior a ello se desea realizar la suite como tal.
+Scripts y futuro framework que tiene como objetivo ser una utilidad para rendir el OSCP. 
 
            ______  ____   _______
           |  ____||  _ \ |__   __|
@@ -16,7 +16,7 @@ Scripts para realizar un pentesting, posterior a ello se desea realizar la suite
           \ V / | |_| | | |
            \_/  \_____()|_|
 
-    Herramienta desarrollada por Snifer y State_X
+    Herramienta desarrollada por Snifer
 
 Modulos:
 
@@ -71,7 +71,8 @@ Web Hacking
 * Crawling Web SIte
 * SQLi Search
 * CMS Identifier
-* Phpmyadmin Search
+* Phpmyadmin 
+* Search
 * Panel Admin Finder
 * Fuzzer Web
 
@@ -85,3 +86,7 @@ Tools Gadget
 
 Backdoors Rootkits
 ------------------
+EX - DESARROLADORES
+==================
+
+StateX
